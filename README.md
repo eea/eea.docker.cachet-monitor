@@ -1,7 +1,7 @@
 
 # Docker image for cachet-monitor
 
-https://github.com/castawaylabs/cachet-monitor
+cachet-monitor documentation - https://github.com/castawaylabs/cachet-monitor
 
 
 # Variables
@@ -18,8 +18,8 @@ It is not mandatory to provide the `api:` part of the configuration if you are u
 # Usage
 The Cachet token and api should be taken from your cachet instance.
 
-docker run --rm -e CONFIG=$(cat example.config.yml) -e CACHET_API=http://cachet/api/v1  -e CACHET_TOKEN=9yMHsdioQosnyVK4iCVR eeacms/cachet-monitor
-docker run --rm -v ./example.config.yml:/etc/cachet-monitor.yaml eeacms/cachet-monitor
+    docker run --rm -e CONFIG=$(cat example.config.yml) -e CACHET_API=http://cachet/api/v1  -e CACHET_TOKEN=9yMHsdioQosnyVK4iCVR eeacms/cachet-monitor
+    docker run --rm -v ./example.config.yml:/etc/cachet-monitor.yaml eeacms/cachet-monitor
 
 
 
